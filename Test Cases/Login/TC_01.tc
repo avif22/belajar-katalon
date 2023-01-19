@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login with registered account</description>
+   <name>TC_01</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>72449fd9-97dd-4af2-b713-992ff8319bf3</testCaseGuid>
+</TestCaseEntity>
