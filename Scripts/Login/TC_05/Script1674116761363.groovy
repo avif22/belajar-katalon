@@ -23,7 +23,7 @@ WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/aut
 
 WebUI.setText(findTestObject('Page_OrangeHRM/input_Username_username'), 'Admin')
 
-WebUI.setText(findTestObject('Page_OrangeHRM/input_Password_password'), 'admin1233')
+WebUI.setEncryptedText(findTestObject('Page_OrangeHRM/input_Password_password'), 'hUKwJTbofgPp4dySY4VDXQ==')
 
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/button_Login'))
 

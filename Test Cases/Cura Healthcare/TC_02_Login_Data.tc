@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login with Data Excel</description>
+   <name>TC_02_Login_Data</name>
+   <tag>Login with Data Excel</tag>
+   <comment></comment>
+   <testCaseGuid>4cae590a-29c6-41c9-9bc4-b55b91141c31</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>84f087e4-1b85-40e1-8efb-8847749ade8b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f785a774-3fd7-4535-af70-f3e0ab529b74</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>84f087e4-1b85-40e1-8efb-8847749ade8b</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f785a774-3fd7-4535-af70-f3e0ab529b74</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

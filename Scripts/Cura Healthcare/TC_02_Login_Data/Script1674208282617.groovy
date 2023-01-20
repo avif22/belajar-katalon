@@ -19,21 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
+WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
-WebUI.setText(findTestObject('Page_OrangeHRM/input_Username_username'), 'Adminc')
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Make Appointment'))
 
-WebUI.setEncryptedText(findTestObject('Page_OrangeHRM/input_Password_password'), 'hUKwJTbofgPU9eVlw/CnDQ==')
+WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_username'), username)
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/button_Login'))
-
-WebUI.verifyElementText(findTestObject('Page_OrangeHRM/label_Invalid_Credentials'), 'Invalid credentials')
-
-WebUI.verifyElementText(findTestObject('Page_OrangeHRM/label_Login'), 'Login')
-
-WebUI.verifyElementText(findTestObject('Page_OrangeHRM/text_box_Username'), '')
-
-WebUI.verifyElementText(findTestObject('Page_OrangeHRM/text_box_Password'), '')
-
-WebUI.closeBrowser()
+WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'), password)
 
