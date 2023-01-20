@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login with unregistered account</description>
+   <name>TC_07</name>
+   <tag>Login with unregistered account</tag>
+   <comment></comment>
+   <testCaseGuid>d3235b1a-b5ee-4a43-9e27-1d60925fe864</testCaseGuid>
+</TestCaseEntity>

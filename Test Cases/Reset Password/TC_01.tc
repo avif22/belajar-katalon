@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Reset Password</description>
+   <name>TC_01</name>
+   <tag>Reset Password</tag>
+   <comment></comment>
+   <testCaseGuid>e0bc487e-7d8f-490b-9c27-9e39a099f14a</testCaseGuid>
+</TestCaseEntity>

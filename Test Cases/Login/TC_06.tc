@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login with incorrect username and correct password</description>
+   <name>TC_06</name>
+   <tag>Login with incorrect username and correct password</tag>
+   <comment></comment>
+   <testCaseGuid>bc022a6e-c1ad-4c0f-9d02-d15405759610</testCaseGuid>
+</TestCaseEntity>
